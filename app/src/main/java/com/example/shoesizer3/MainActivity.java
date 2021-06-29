@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String[] brands = new String[]{
-                "Nike", "Adidas"
+                "Nike", "Adidas", "Puma"
         };
 
         Spinner s = (Spinner) findViewById(R.id.spinner);
@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(position==1){
                     selectedBrand = 2;
+                }
+                if(position==2){
+                    selectedBrand = 3;
                 }
             }
 

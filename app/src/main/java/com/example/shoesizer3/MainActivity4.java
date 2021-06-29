@@ -30,7 +30,7 @@ public class MainActivity4 extends AppCompatActivity {
         }
 
         String[] brands = new String[]{
-                "Nike", "Adidas"
+                "Nike", "Adidas", "Puma"
         };
 
 
@@ -48,6 +48,9 @@ public class MainActivity4 extends AppCompatActivity {
                 }
                 if(position==1){
                     wantedBrand = 2;
+                }
+                if(position==2){
+                    wantedBrand = 3;
                 }
             }
 
