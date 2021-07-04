@@ -67,6 +67,7 @@
         android:layout_marginRight="169dp"
         android:layout_marginBottom="110dp"
         android:text="Next"
+        app:backgroundTint="#FFAF9797"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
